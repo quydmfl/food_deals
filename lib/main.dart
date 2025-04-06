@@ -1,20 +1,9 @@
-import 'package:flutter/material.dart';
+import 'package:food_deals/core/env/app_config.dart';
+import 'package:food_deals/core/env/env.dart';
+import 'package:food_deals/utils/app_runner.dart';
 
 void main() {
-  runApp(const MainApp());
+  AppConfig.initialize(env: Env.prod());
+  AppRunner.instance.run();
 }
 
-class MainApp extends StatelessWidget {
-  const MainApp({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: Text('Hello World!'),
-        ),
-      ),
-    );
-  }
-}
