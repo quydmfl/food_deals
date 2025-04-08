@@ -5,3 +5,4 @@ Build project to learn how to use clean architecture with flutter and use bloc, 
 ## References
 1. [Clean Architecture](https://github.com/quydmfl/mi-learning/blob/main/lib/config/local_keys.dart)
 2. [App UI](https://www.figma.com/design/DT1fgapUL9iLd6hvnl8CCz/Bitedeals---Food-Saving-App--Community-?node-id=41-4082&p=f&t=eWJGj1HZ3ybjPr5K-0)
+3. [References Project Structure - <i style="color: red;">Important!</i>](https://codewithandrea.com/articles/flutter-project-structure/)
