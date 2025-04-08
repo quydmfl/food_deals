@@ -1,7 +1,10 @@
+import 'package:food_deals/app/product/product_container.dart';
+
 class AppContainer {
   AppContainer._internal();
 
   static Future<void> initialize() async {
-    // TODO: Add your initialization logic here
+    // Injector dependencies
+    await ProductContainer.instance.init();
   }
 }
